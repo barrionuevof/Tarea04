@@ -1,0 +1,11 @@
+import 'package:get/get.dart';
+
+class ContadorController extends GetxController {
+  int counter = 0;
+
+  void increment() {
+    print(counter.toString());
+    counter++;
+    update();
+  }
+}
